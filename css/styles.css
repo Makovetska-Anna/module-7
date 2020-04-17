@@ -1,0 +1,349 @@
+@font-face {
+	font-family: 'Dancing Script';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+			 url('../fonts/dancing-script-v14-latin-regular.woff2') format('woff2'),
+			 url('../fonts/dancing-script-v14-latin-regular.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'),
+       url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+       url('../fonts/montserrat-v14-latin-800.woff2') format('woff2'), 
+       url('../fonts/montserrat-v14-latin-800.woff') format('woff'); 
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/roboto-slab-v11-latin-regular.woff2') format('woff2'), 
+       url('../fonts/roboto-slab-v11-latin-regular.woff') format('woff'); 
+}
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Libre Baskerville Italic'), local('LibreBaskerville-Italic'),
+       url('../fonts/libre-baskerville-v7-latin-italic.woff2') format('woff2'), 
+       url('../fonts/libre-baskerville-v7-latin-italic.woff') format('woff'); 
+}
+
+
+
+
+.visually-hidden:not(:focus):not(:active),
+input[type='checkbox'].visually-hidden,
+input[type='radio'].visually-hidden{
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0px;
+padding: 0px;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+.box{
+	padding-top: 55px;
+	margin-bottom: 120px;
+
+}
+ 
+
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	width: 1170px;
+	
+	
+}
+.menu-nav{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.menu-link{
+	text-decoration: none;
+	font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+	font-size: 14px;
+	line-height: 1;
+	color: #222222;
+	
+}
+.menu-link:hover{
+color: #fed136;
+}
+
+.link:not(:last-child){
+	margin-right: 55px;
+}
+.logo{
+	font-family: 'Dancing Script';
+	font-style: normal;
+	font-weight: 400;
+	color: #fed136;
+	font-size: 26px;
+	line-height: 1;
+
+}
+ 
+
+.subtitle{
+	font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+	font-size: 16px;
+	line-height: 1;
+	color: #777777;
+	text-align: center;
+	margin: 0;
+	margin-top: 20px;
+}
+
+
+.title{
+	font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+	font-size: 40px;
+	line-height: 36px;
+  color: #222222;
+	text-align: center;
+	margin: 0;
+	
+}
+
+.services{
+	list-style: none;
+	
+	width: 350px;
+
+}
+.services:not(:nth-child(3n+3)){
+	margin-right: 50px;
+}
+
+.menu-services{
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-top: 80px;
+	
+}
+
+.item{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 17px;
+	color: #333333;
+	padding: 0;
+	border: none;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+.services-text{
+	font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	color: #999999;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.stale{
+	margin: 0 auto;
+	padding: 0;
+	border: 4px solid #fed136;
+	width: 74px;
+	height: 73px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.work{
+		margin-bottom: 120px;
+}
+ 
+.basket{
+	background: no-repeat center url(https://i.ibb.co/V3FzDGg/Icon-Basket.png);
+}
+.laptop{
+	background: no-repeat center url(https://i.ibb.co/ZxM26FD/Icon-Laptop.png);
+}
+.locked{
+		background: no-repeat center url(https://i.ibb.co/BL7RWMb/Icon-Locked.png);}
+
+
+	
+.back{
+  min-height: 600px;
+	padding-top: 100px;
+	background-color: rgb(34, 34, 34);
+	background-image: url(https://i.ibb.co/hYtPNBD/Map-Image.png);
+	background-position: right;
+	background-repeat: no-repeat ;
+	
+}
+
+
+
+		.subtitle2{
+			font-family: 'Libre Baskerville';
+			font-style: italic;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 1;
+			color: #777777;
+			text-align: center;
+			margin: 0;
+			margin-bottom: 70px;
+		}
+		
+		
+		.title2{
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 800;
+		  font-size: 40px;
+			line-height: 36px;
+			color: #ffffff;
+			text-align: center;
+			margin: 0;
+			margin-bottom: 25px;
+			
+		}
+		.infomation{
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 800;
+			font-size: 14px;
+			line-height: 1;
+			color: #bbbbbb;
+			border-width: 1px;
+			border-radius: 5px;
+			width: 500px;
+			height: 54px;
+			padding-left: 20px;
+			outline: 0;
+		}
+	
+.areatext{
+	resize: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 1;
+	color: #bbbbbb;
+  border-width: 1px;
+	border-radius: 5px;
+	width: 500px;
+	height: 214px;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	
+
+}
+.boton-form{
+	width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+
+}
+
+.contact-button{
+	border-radius: 3px;
+  background-color: rgb(254, 209, 54);
+  width: 240px;
+	height: 66px;
+	border: 0;
+	color: #ffffff;
+	font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 800;
+}
+.infomation::placeholder{
+	font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 800;
+			font-size: 14px;
+			line-height: 1;
+			color: #bbbbbb;
+		
+}
+.areatext::placeholder{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 1;
+	color: #bbbbbb;
+
+}
+
+
+
+.infomation:focus[type='email']:valid,
+.infomation:focus[type='name']:valid {
+	outline: 3px solid green;
+
+}
+.infomation:focus[type='email']:invalid,
+.infomation:focus[type='name']:invalid {
+	outline: 3px solid red;
+
+}
+.areatext:focus[type='message']:valid{
+	outline: 3px solid green;
+}
+.areatext:focus[type='message']:invalid{
+	outline: 3px solid red;
+}
